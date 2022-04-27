@@ -102,10 +102,7 @@ section .title::after{
     font-size: 35px;
     font-weight: 600;
 }
-.navbar .logo a span{
-    color: #a1bc61;
-    transition: all 0.3s ease;
-}
+
 .navbar.sticky .logo a span{
     color: #fff;
 }
@@ -169,7 +166,7 @@ section .title::after{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: #a1bc61;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -268,6 +265,7 @@ section .title::after{
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
+    
 }
 .skills .skills-content .left .text{
     font-size: 20px;
@@ -391,22 +389,7 @@ section .title::after{
 .contact .right form .name{
     margin-right: 10px;
 }
-.contact .right form .field input,
-.contact .right form .textarea textarea{
-    height: 100%;
-    width: 100%;
-    border: 1px solid lightgrey;
-    border-radius: 6px;
-    outline: none;
-    padding: 0 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
-}
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
-}
+
 .contact .right form .textarea textarea{
   padding-top: 10px;
   resize: none;
@@ -434,21 +417,6 @@ section .title::after{
   color: #a1bc61;
   background: none;
 }
-/* footer section styling */
-footer{
-    background: #111;
-    padding: 15px 23px;
-    color: #fff;
-    text-align: center;
-}
-footer span a{
-    color: #a1bc61;
-    text-decoration: none;
-}
-footer span a:hover{
-    text-decoration: underline;
-}
-
 
 /* responsive media query start */
 @media (max-width: 1104px) {
